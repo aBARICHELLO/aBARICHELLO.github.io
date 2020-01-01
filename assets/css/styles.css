@@ -1,0 +1,44 @@
+header, footer {
+  all: initial;
+}
+
+.sidebar {
+   width: 270px;
+   float: left;
+   position: fixed;
+   -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+}
+
+body {
+    color: #333;
+}
+
+p {
+    text-indent: 30px;
+    padding-bottom: 0px;
+}
+
+a:hover {
+    border-bottom: 2px solid;
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+    color: teal;
+    font-weight: bold;
+}
